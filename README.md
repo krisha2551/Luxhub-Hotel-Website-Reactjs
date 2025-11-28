@@ -47,6 +47,7 @@ If your screenshots are currently hosted with GitHub artifacts or user-attachmen
 📦 Clean folder structure & reusable components
 
 📂 Folder Structure
+
 LUXHUB-HOTEL-WEBSITE-REACTJS/
 │
 ├── node_modules/
