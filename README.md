@@ -1,70 +1,96 @@
-🌟 LuxHub – Hotel Booking Website (ReactJS)
+🏨 LuxHub – Hotel Website (React + Vite + Bootstrap)
 
-A modern, elegant, and fully responsive Hotel Booking Website built using ReactJS and Bootstrap.
-This project showcases a luxury hotel theme with sections like room booking, services, blogs, testimonials, and more.
+A modern, fully responsive Hotel & Resort Website built using React-Vite, Bootstrap, and reusable components.
+This project includes booking forms, room listings, blogs, contact pages, and a complete multi-page layout.
 
-📸 Project Preview
+website Url:-https://luxhub-hotel-website-reactjs-wheat.vercel.app/
+
+📸 Screenshots
+
+<img width="1920" height="9774" alt="homepage-min" src="https://github.com/user-attachments/assets/08ab6a23-aa24-41b1-aef5-411330f6990a" />
 
 
+
+
+🚀 Features
+
+⚡ Built using React + Vite (Fast development & optimized bundle)
+
+🎨 Styled using Bootstrap 5
+
+🧭 Multi-page components (About, Rooms, Facilities, Blogs, Contact)
+
+🛏️ Rooms & Suites listing + Room details page
+
+📅 Room Booking Form
+
+⭐ Testimonials section
+
+📰 Blog section
+
+🖼️ Beautiful modern UI with images & sections
+
+📦 Clean folder structure & reusable components
+
+📂 Folder Structure
+LUXHUB-HOTEL-WEBSITE-REACTJS/
+│
+├── node_modules/
+├── public/
+│
+├── src/
+│   ├── assets/
+│   │     └── (all images & icons)
+│   │
+│   ├── Components/
+│   │     ├── Footer/
+│   │     │     └── Footer.jsx
+│   │     ├── Nav/
+│   │     │     └── Nav.jsx
+│   │
+│   ├── Pages/
+│   │     ├── About.jsx
+│   │     ├── Blogs.jsx
+│   │     ├── Contact.jsx
+│   │     ├── Facilities.jsx
+│   │     ├── Index.jsx
+│   │     ├── Rooms.jsx
+│   │     └── RoomsDetails.jsx
+│   │
+│   ├── App.css
+│   ├── App.jsx
+│   ├── Data.json
+│   ├── index.css
+│   ├── main.jsx
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md   <-- (this file)
+└── vite.config.js
 
 🛠️ Tech Stack
+Technology	Purpose
+React	UI components, routing
+Vite	Build tool, fast dev server
+Bootstrap 5	Styling & responsive grid
+JSON data	Rooms, blogs & static content
 
-| Technology       | Purpose                        |
-| ---------------- | ------------------------------ |
-| **ReactJS**      | Component-based UI development |
-| **React Router** | Page navigation                |
-| **Bootstrap 5**  | Responsive styling & layout    |
-| **CSS**          | Custom styling                 |
-| **Vite**         | Fast development environment   |
 
-📂 Project Structure
+🚀 Installation & Setup
 
-LUXHUB-HOTEL-WEBSITE-REACTJS
-│── public
-│── src
-│   ├── assets
-│   ├── Components
-│   │   ├── Footer
-│   │   │   └── Footer.jsx
-│   │   ├── Nav
-│   │   │   └── Nav.jsx
-│   ├── Pages
-│   │   ├── About.jsx
-│   │   ├── Blogs.jsx
-│   │   ├── Contact.jsx
-│   │   ├── Facilities.jsx
-│   │   ├── Index.jsx
-│   │   ├── Rooms.jsx
-│   │   └── RoomsDetails.jsx
-│   ├── App.jsx
-│   ├── App.css
-│   ├── Data.json
-│   └── main.jsx
-│── package.json
-│── vite.config.js
-└── README.md
+Follow these steps to run the project locally:
 
-✨ Features
+1️⃣ Clone the repository
+git clone https://github.com/yourusername/LuxHub-Hotel-React.git
 
-✔️ Beautiful luxury hotel UI
-✔️ Fully responsive design
-✔️ Room listing & room detail pages
-✔️ Online room booking form
-✔️ Testimonials section
-✔️ Blog & news section
-✔️ Extra services pricing
-✔️ Smooth navigation with React Router
-✔️ Built using React + Bootstrap for faster development
-
-📥 Installation & Setup
-
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/LuxHub-Hotel-Website-ReactJS.git
-cd LuxHub-Hotel-Website-ReactJS
-
-2️⃣ Install Dependencies
+2️⃣ Install dependencies
 npm install
 
-3️⃣ Start the Development Server
+3️⃣ Start development server
 npm run dev
 
+4️⃣ Build for production
+npm run build
