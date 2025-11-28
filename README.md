@@ -1,34 +1,48 @@
-🏨 LuxHub – Hotel Website (React + Vite + Bootstrap)
+🏨 LuxHub — Hotel Website (React · Vite · Bootstrap)
 
-A modern, fully responsive Hotel & Resort Website built using React-Vite, Bootstrap, and reusable components.
-This project includes booking forms, room listings, blogs, contact pages, and a complete multi-page layout.
+Live Demo
+ • Demo deployed on Vercel
 
-website Url:-https://luxhub-hotel-website-reactjs-wheat.vercel.app/
+A modern, fully responsive hotel & resort website built with React + Vite + Bootstrap. The site includes booking forms, room listings, blogs, contact pages and a multi-page layout with reusable components.
+
+🌐 Live Demo
+
+https://luxhub-hotel-website-reactjs-wheat.vercel.app/
 
 📸 Screenshots
 
-<img width="1920" height="9774" alt="homepage-min" src="https://github.com/user-attachments/assets/08ab6a23-aa24-41b1-aef5-411330f6990a" />
+Recommended: Add screenshots to your repository under a screenshots/ folder and reference them with relative paths. This guarantees GitHub will display them correctly.
+
+Example — put images in ./screenshots/ then use:
+
+![Home Page](./screenshots/homepage-min.png)
+![Rooms Page](./screenshots/rooms.png)
 
 
+If you need to control size in the README, use HTML:
 
+<img src="./screenshots/homepage-min.png" alt="Home page" width="100%" />
+
+
+If your screenshots are currently hosted with GitHub artifacts or user-attachments, they may not render publicly. See Troubleshooting below.
 
 🚀 Features
 
-⚡ Built using React + Vite (Fast development & optimized bundle)
+⚡ Fast development with Vite
 
-🎨 Styled using Bootstrap 5
+🎨 UI styled with Bootstrap 5
 
-🧭 Multi-page components (About, Rooms, Facilities, Blogs, Contact)
+🧭 Multi-page structure: About, Rooms, Facilities, Blogs, Contact
 
-🛏️ Rooms & Suites listing + Room details page
+🛏️ Rooms & Suites listing + Room detail pages
 
-📅 Room Booking Form
+📅 Room booking form UI
 
 ⭐ Testimonials section
 
-📰 Blog section
+📰 Blog listing
 
-🖼️ Beautiful modern UI with images & sections
+🖼️ Modern, responsive layout with image cards
 
 📦 Clean folder structure & reusable components
 
@@ -39,23 +53,23 @@ LUXHUB-HOTEL-WEBSITE-REACTJS/
 ├── public/
 │
 ├── src/
-│   ├── assets/
-│   │     └── (all images & icons)
+│   ├── assets/            # images, icons, fonts
 │   │
 │   ├── Components/
-│   │     ├── Footer/
-│   │     │     └── Footer.jsx
-│   │     ├── Nav/
-│   │     │     └── Nav.jsx
+│   │   ├── Footer/
+│   │   │   └── Footer.jsx
+│   │   ├── Nav/
+│   │   │   └── Nav.jsx
+│   │   └── (other shared components)
 │   │
 │   ├── Pages/
-│   │     ├── About.jsx
-│   │     ├── Blogs.jsx
-│   │     ├── Contact.jsx
-│   │     ├── Facilities.jsx
-│   │     ├── Index.jsx
-│   │     ├── Rooms.jsx
-│   │     └── RoomsDetails.jsx
+│   │   ├── About.jsx
+│   │   ├── Blogs.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Facilities.jsx
+│   │   ├── Index.jsx
+│   │   ├── Rooms.jsx
+│   │   └── RoomsDetails.jsx
 │   │
 │   ├── App.css
 │   ├── App.jsx
@@ -68,29 +82,33 @@ LUXHUB-HOTEL-WEBSITE-REACTJS/
 ├── index.html
 ├── package.json
 ├── package-lock.json
-├── README.md   <-- (this file)
+├── README.md    # ← you are editing this
 └── vite.config.js
 
 🛠️ Tech Stack
-Technology	Purpose
-React	UI components, routing
-Vite	Build tool, fast dev server
-Bootstrap 5	Styling & responsive grid
-JSON data	Rooms, blogs & static content
+Tech	Purpose
+React	UI & component architecture
+Vite	Dev server & build tool
+Bootstrap 5	Responsive styles and grid
+JSON	Static data for rooms/blogs
+⚙️ Installation & Run Locally
 
+Clone
 
-🚀 Installation & Setup
-
-Follow these steps to run the project locally:
-
-1️⃣ Clone the repository
 git clone https://github.com/yourusername/LuxHub-Hotel-React.git
+cd LuxHub-Hotel-React
 
-2️⃣ Install dependencies
+
+Install
+
 npm install
 
-3️⃣ Start development server
+
+Run dev server
+
 npm run dev
 
-4️⃣ Build for production
+
+Build for production
+
 npm run build
